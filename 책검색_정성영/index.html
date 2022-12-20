@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 라이브러리 등을 참조하는 경우, 이곳에 위치 -->
+    <!-- jquery 문서 : https://api.jquery.com/ -->
+    <!-- google cdn에서 가져오기 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>도서 검색</title>
+    <link rel="stylesheet" href="searchBook.css">
+</head>
+<body>
+    <div class="grid">
+        <header>
+            <div class="head"><strong><a href="index.html">BOOK SEARCH</a></div>
+            <div>
+                <form>
+                    <input type="text" class="search" id="query">
+                    <input type="button" id="search" value="검색">
+                </form>
+            </div>
+        </header>
+
+        <section class="container">
+        </section>
+    </div>
+    <!-- 문서의 하단에 위치-->
+    <script src="searchBook.js"></script>
+</body>
+</html>
